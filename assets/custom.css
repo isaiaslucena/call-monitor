@@ -1,0 +1,363 @@
+.jqstooltip {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	background: rgb(0, 0, 0) transparent;
+	background-color: rgba(0,0,0,0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	color: white;font: 10px arial, san serif;
+	text-align: left;
+	white-space: nowrap;
+	padding: 5px;
+	border: 1px solid white;
+	z-index: 10000;
+}
+.jqsfield {
+	color: white;
+	font: 10px arial, san serif;
+	text-align: left;
+}
+
+.tooltipvideo {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	max-width: 300px;
+	max-height: 200px;
+	display: none;
+	color: #FFFFFF;
+	background-color: #555;
+	vertical-align: center;
+	text-align: center;
+	padding: 5px;
+	border-radius: 6px;
+	z-index: 2;
+}
+.tooltipvideo::after {
+	content: "";
+	position: absolute;
+	top: 20%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #555 transparent transparent;
+}
+
+.tooltipaudio {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	display: none;
+	color: #FFFFFF;
+	background-color: #555;
+	vertical-align: center;
+	text-align: center;
+	padding: 5px;
+	border-radius: 6px;
+	z-index: 2;
+}
+.tooltipaudio::after {
+	content: "";
+	position: absolute;
+	top: 40%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #555 transparent transparent;
+}
+
+.tooltipprint {
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	max-width: 200px;
+	max-height: 300px;
+	display: none;
+	color: #FFFFFF;
+	background-color: #555;
+	vertical-align: center;
+	text-align: center;
+	padding: 5px;
+	border-radius: 6px;
+	z-index: 2;
+}
+.tooltipprint::after {
+	content: "";
+	position: absolute;
+	top: 10%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #555 transparent transparent;
+}
+
+.tooltiponline {
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	max-width: 200px;
+	max-height: 300px;
+	overflow-y: auto;
+	display: none;
+	color: #FFFFFF;
+	background-color: #555;
+	vertical-align: center;
+	text-align: center;
+	padding: 5px;
+	border-radius: 6px;
+	z-index: 2;
+}
+.tooltiponline::after {
+	content: "";
+	position: absolute;
+	top: 10%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #555 transparent transparent;
+}
+
+.modal-lg-snews {
+	width: 95%;
+}
+
+.modal-lg-sa {
+	width: 80%;
+}
+
+.listg-subkey {
+	width: 400px;
+	max-height: 500px;
+	overflow-y: auto;
+	display: none;
+}
+
+.btn-subjects {
+	text-decoration: bold;
+}
+
+.actual_range {
+	display: inline-block;
+}
+
+.map{
+	position: relative;
+	margin: auto;
+	left: 15%;
+}
+
+.map svg{
+	width: 100%;
+	height: 300px;
+}
+
+.mapTooltip {
+	position: absolute;
+	background-color: #B4B4B4;
+	moz-opacity: 0.70;
+	opacity: 0.70;
+	filter: alpha(opacity=70);
+	border-radius: 10px;
+	padding: 10px;
+	z-index: 1000;
+	max-width: 200px;
+	display: none;
+	color: #343434;
+}
+
+.kwgrifar {
+	color: red;
+	/*background-color: gray;*/
+	/*font-size: 110%;*/
+}
+
+.tdaddf {
+	background: : #FF263C;
+	transition: background 1.5s linear;
+}
+
+.tdaddff {
+	background: #3D3D3D;
+	transition: background 1.5s linear;
+}
+
+.clockpicker-popover {
+	z-index: 999999 !important;
+}
+
+.imggrad {
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	float: left;
+	position: absolute;
+	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(255,255,255,1));
+	z-index: 1000;
+}
+.imggrad span {
+	position: absolute;
+	bottom: 0;
+	left: 28%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.imggrad span:hover {
+	text-decoration: underline;
+}
+
+/*typeahead*/
+span.twitter-typeahead .tt-menu,
+span.twitter-typeahead .tt-dropdown-menu {
+	cursor: pointer;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 100px;
+	max-height: 150px;
+	overflow-y: auto;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	list-style: none;
+	font-size: 14px;
+	text-align: left;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+	background-clip: padding-box;
+}
+span.twitter-typeahead .tt-suggestion {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.42857143;
+	color: #333333;
+	white-space: nowrap;
+}
+span.twitter-typeahead .tt-suggestion.tt-cursor,
+span.twitter-typeahead .tt-suggestion:hover,
+span.twitter-typeahead .tt-suggestion:focus {
+	color: #ffffff;
+	text-decoration: none;
+	outline: 0;
+	background-color: #337ab7;
+}
+.input-group.input-group-lg span.twitter-typeahead .form-control {
+	height: 46px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	border-radius: 6px;
+}
+.input-group.input-group-sm span.twitter-typeahead .form-control {
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+span.twitter-typeahead {
+	width: 100%;
+}
+.input-group span.twitter-typeahead {
+	display: block !important;
+	height: 34px;
+}
+.input-group span.twitter-typeahead .tt-menu,
+.input-group span.twitter-typeahead .tt-dropdown-menu {
+	top: 32px !important;
+	max-height: 150px;
+	overflow-y: auto;
+}
+.input-group span.twitter-typeahead:not(:first-child):not(:last-child) .form-control {
+	border-radius: 0;
+}
+.input-group span.twitter-typeahead:first-child .form-control {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.input-group span.twitter-typeahead:last-child .form-control {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.input-group.input-group-sm span.twitter-typeahead {
+	height: 30px;
+}
+.input-group.input-group-sm span.twitter-typeahead .tt-menu,
+.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+	top: 30px !important;
+	max-height: 150px;
+	overflow-y: auto;
+}
+.input-group.input-group-lg span.twitter-typeahead {
+	height: 46px;
+}
+.input-group.input-group-lg span.twitter-typeahead .tt-menu,
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+	top: 46px !important;
+	max-height: 150px;
+	overflow-y: auto;
+}
+
+/*tags input*/
+.bootstrap-tagsinput {
+	width: 100%;
+}
+
+/*sweet alert*/
+.swal2-popup {
+	font-size: 1.6rem !important;
+}
+
+.tooltipbn{
+	cursor: default;
+}
+
+/*my clipping inserted*/
+table.dataTable tbody tr.selected-mclipp, table.dataTable tbody th.selected-mclipp, table.dataTable tbody td.selected-mclipp {
+	color: black;
+}
+table.dataTable tbody>tr.selected-mclipp, table.dataTable tbody>tr>.selected-mclipp {
+	background-color: #51ff0017;
+}
+
+video::-internal-media-controls-download-button { display:none; }
+video::-webkit-media-controls-enclosure { overflow:hidden; }
+video::-webkit-media-controls-panel { width: calc(100% + 35px); }
+
+audio::-internal-media-controls-download-button { display:none; }
+audio::-webkit-media-controls-enclosure { overflow:hidden; }
+audio::-webkit-media-controls-panel { width: calc(100% + 35px); }
+
+span[data-begin]:focus,
+span[data-begin]:hover {
+	background-color: yellow;
+	border-radius: 8px;
+}
+span[data-begin].speaking {
+	background-color: yellow;
+	border-radius: 8px;
+	z-index: 900;
+}
+span[data-begin] {
+	cursor: pointer;
+}
